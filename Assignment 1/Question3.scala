@@ -9,10 +9,10 @@ object Question3{
 	var Cost : Double = 0;
 
 		if(n<=50){
-			Cost=n*(24.95+24.95*0.4)+3;
+			Cost=n*(24.95*0.6+3);
                         return Cost;			}
                 else{
-			Cost=n*(24.95+24.95*0.4)+3+(n-50)*0.75;
+			Cost=n*(24.95*0.6)+3*50+(n-50)*0.75;
 			return Cost;
 			}
 
